@@ -1,7 +1,7 @@
 package com.narxoz.rpg.enemy;
 
-import com.narxoz.rpg.enemy.combat.Ability;
-import com.narxoz.rpg.enemy.factory.loot.LootTable;
+import com.narxoz.rpg.combat.Ability;
+import com.narxoz.rpg.factory.loot.LootTable;
 
 import java.util.ArrayList;
 import java.util.List;

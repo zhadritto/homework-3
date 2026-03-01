@@ -1,0 +1,13 @@
+package com.narxoz.rpg.factory;
+
+import com.narxoz.rpg.combat.Ability;
+import com.narxoz.rpg.factory.loot.LootTable;
+
+import java.util.List;
+
+public interface EnemyComponentFactory {
+    List<Ability> createAbilities();
+    LootTable createLootTable();
+    String createAIType();
+    String getElement();
+}

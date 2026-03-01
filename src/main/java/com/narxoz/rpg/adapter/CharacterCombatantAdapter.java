@@ -12,7 +12,10 @@ public class CharacterCombatantAdapter implements Combatant {
         this.character = character;
         this.health = health;
     }
-
+    @Override
+    public int attack() {
+        return getAttack();
+    }
     @Override
     public String getName() {
         return character.getClass().getSimpleName();

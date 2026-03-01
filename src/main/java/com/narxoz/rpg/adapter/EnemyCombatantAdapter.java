@@ -10,7 +10,10 @@ public class EnemyCombatantAdapter implements Combatant {
     public EnemyCombatantAdapter(Enemy enemy) {
         this.enemy = enemy;
     }
-
+    @Override
+    public int attack() {
+        return enemy.getDamage();
+    }
     @Override
     public String getName() {
         return enemy.getName();
