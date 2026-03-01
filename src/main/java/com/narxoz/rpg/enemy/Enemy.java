@@ -42,7 +42,17 @@ public class Enemy implements Cloneable {
             throw new RuntimeException("Enemy cloning failed");
         }
     }
+    public String getName() {
+        return name;
+    }
 
+    public int getHealth() {
+        return health;
+    }
+
+    public int getDamage() {
+        return damage;
+    }
     @Override
     public String toString() {
         return "Enemy{" +
